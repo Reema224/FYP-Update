@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+.try {
+  color: red;
+}
+/* Dropdown */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  color:red;
+}
+.nolik{
+  text-decoration: none;
+}
+.xx {
+  color: white;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  right: 0;
+  min-width: 12rem;
+  padding: 1rem;
+  z-index: 10;
+  background-color:whitesmoke;
+  margin: 0;
+  color: #202020;
+  margin-top: 0.4rem;
+  border-radius: 0.5rem;
+}
+.dropdown-content li {
+  color: #203040;
+}
+.signout {
+  color: #202020;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #034f84;
+}
+.noremove {
+  display: none;
+}
+.button {
+  margin-left: 4rem;
+  background-color: #202020;
+  margin-right: 4rem;
+  border-color: #202020;
+}
+.button2 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  background-color: #202020;
+  border-color: #202020;
+}
+.color {
+  background-color: #202020;
+  color:#fff;
+}
+#title {
+  margin-left: 42%;
+  margin-right: 23%;
+}
+#back {
+  background-color: #202020;
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 5.7%;
+}
+#next {
+  background-color: #202020;
+  color:#fff;
+  position: fixed;
+  top: 50%;
+  right: 5.7%;
+}
+#hei {
+  background-color: #bebebe;
+  max-height: 50%;
+}
+
+@media only screen and (max-width: 617px) {
+  #title {
+    margin-left: 20%;
+  }
+}
+@media only screen and (max-width: 405px) {
+  #title {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  #back {
+    left: 0%;
+    width: 0.1%;
+  }
+  #next {
+    right: 0%;
+    width: 0.1%;
+  }
+  
+}
+@media only screen and (max-width: 370px) {
+  #decrease {
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+@media only screen and (max-width: 354px) {
+  #decrease {
+    padding-left: 19%;
+    padding-right: 19%;
+  }
+}
+
+.imageplace {
+  margin-left: 42%;
+}
+@media only screen and (max-width: 1000px) {
+
+  .imageplace {
+    margin-left: 0%;
+  }
+}
+
+
+
+.no{
+  display:none;
+  transition: transform 0.6s ease-in-out;
+
+}
+.yes{
+  background: #f1f1f1;
+  display: block;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  transition: transform 0.6s ease-in-out;
+  border-radius: 3px;
+
+
+}
+.picture{
+width:70px;
+height:70px;
+border-radius: 50%;
+}
